@@ -20,4 +20,4 @@
 //!!!!!
 
 $("a").each(function(){if(/.*?pikabu.ru\/profile\/.*/.test(this.href)) $(this).bind({mouseenter: showTooltip, mouseleave: hideTooltip})})
-$("body").bind({scroll:hideTooltip})
+$(window).bind({scroll:hideTooltip})
