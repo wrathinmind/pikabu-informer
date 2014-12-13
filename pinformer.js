@@ -39,12 +39,9 @@ var showTooltip = function(event) {
 };
 
 
-
-
 var hideTooltip = function() {
     bshowtooltip = false;
     setTimeout(function(){
-        console.log(bhideme);
         if(bhideme){
             $('div.pinformer_tooltip').remove();
             bhideme = true;
@@ -66,7 +63,5 @@ $("a").each(
         }
     }
 )
-for(i in cache)
-    console.log(i);
 
 $(window).bind({scroll:hideTooltip})
