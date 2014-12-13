@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Pikabu Informer",
-  "version": "1.9",
+  "version": "2.0",
   "description":"Вывод дополнительной информации о пользователе",
   
   "icons": { "16": "icon16.png",
